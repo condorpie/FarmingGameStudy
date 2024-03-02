@@ -1,0 +1,102 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c757b4c32480bc049a5d02d749f03c8d, type: 3}
+  m_Name: so_CropDetailsList
+  m_EditorClassIdentifier: 
+  cropDetails:
+  - seedItemCode: 10006
+    growthDays: 0000000001000000020000000300000005000000
+    growthPrefab:
+    - {fileID: 7327314920383236272, guid: fbdce8a5936cc9e48983f8e6738e1677, type: 3}
+    - {fileID: 7327314920383236272, guid: fbdce8a5936cc9e48983f8e6738e1677, type: 3}
+    - {fileID: 7327314920383236272, guid: fbdce8a5936cc9e48983f8e6738e1677, type: 3}
+    - {fileID: 7327314920383236272, guid: fbdce8a5936cc9e48983f8e6738e1677, type: 3}
+    - {fileID: 7327314920383236272, guid: fbdce8a5936cc9e48983f8e6738e1677, type: 3}
+    growthSprite:
+    - {fileID: 6634833228405365077, guid: 5a1df36ac90cfa242908df77f9674580, type: 3}
+    - {fileID: -8204859348171178890, guid: 5a1df36ac90cfa242908df77f9674580, type: 3}
+    - {fileID: -4573777506729046043, guid: 5a1df36ac90cfa242908df77f9674580, type: 3}
+    - {fileID: 7041525069147447728, guid: 5a1df36ac90cfa242908df77f9674580, type: 3}
+    - {fileID: 7193783865090184285, guid: 5a1df36ac90cfa242908df77f9674580, type: 3}
+    seasons: 0000000001000000
+    harvestedSprite: {fileID: 21300000, guid: 0a1268bf801d5304ebf16458d7309ac1, type: 3}
+    harvestedTransformItemCode: 0
+    hideCropBeforeHarvestedAnimation: 1
+    disableCropCollidersBeforeHarvestAnimation: 0
+    isHarvestedAnimation: 1
+    isHarvestActionEffect: 0
+    spawnCropProducedAtPlayerPosition: 1
+    harvestActionEffect: 5
+    harvestToolItemCode: 1c270000
+    requiredHarvestAction: 01000000
+    cropProducedItemCode: 17270000
+    cropProducedMinQuantity: 01000000
+    cropProducedMaxQuantity: 00000000
+    daysToRegrow: 0
+  - seedItemCode: 10000
+    growthDays: 00000000050000000a0000000f00000014000000
+    growthPrefab:
+    - {fileID: 7327314920383236272, guid: fbdce8a5936cc9e48983f8e6738e1677, type: 3}
+    - {fileID: 7327314920383236272, guid: fbdce8a5936cc9e48983f8e6738e1677, type: 3}
+    - {fileID: 7327314920383236272, guid: fbdce8a5936cc9e48983f8e6738e1677, type: 3}
+    - {fileID: 7327314920383236272, guid: fbdce8a5936cc9e48983f8e6738e1677, type: 3}
+    - {fileID: 4192215264671357220, guid: b6606c5bb8cb12444a1e551ba1085050, type: 3}
+    growthSprite:
+    - {fileID: 5940278866164146339, guid: d241c496741a12d4290e12ba81dd6724, type: 3}
+    - {fileID: -1611693019923910846, guid: d241c496741a12d4290e12ba81dd6724, type: 3}
+    - {fileID: 1388107105281676754, guid: d241c496741a12d4290e12ba81dd6724, type: 3}
+    - {fileID: 6019493940114240039, guid: d241c496741a12d4290e12ba81dd6724, type: 3}
+    - {fileID: 21300000, guid: 89c46045b5f23d840b62099f6f1f6344, type: 3}
+    seasons: 0000000001000000
+    harvestedSprite: {fileID: 0}
+    harvestedTransformItemCode: 10009
+    hideCropBeforeHarvestedAnimation: 0
+    disableCropCollidersBeforeHarvestAnimation: 0
+    isHarvestedAnimation: 1
+    isHarvestActionEffect: 1
+    spawnCropProducedAtPlayerPosition: 0
+    harvestActionEffect: 0
+    harvestToolItemCode: 15270000
+    requiredHarvestAction: 07000000
+    cropProducedItemCode: 1827000010270000
+    cropProducedMinQuantity: 0200000001000000
+    cropProducedMaxQuantity: 0500000002000000
+    daysToRegrow: 0
+  - seedItemCode: 10000
+    growthDays: 00000000050000000a0000000f00000014000000
+    growthPrefab:
+    - {fileID: 7327314920383236272, guid: fbdce8a5936cc9e48983f8e6738e1677, type: 3}
+    - {fileID: 7327314920383236272, guid: fbdce8a5936cc9e48983f8e6738e1677, type: 3}
+    - {fileID: 7327314920383236272, guid: fbdce8a5936cc9e48983f8e6738e1677, type: 3}
+    - {fileID: 7327314920383236272, guid: fbdce8a5936cc9e48983f8e6738e1677, type: 3}
+    - {fileID: 4192215264671357220, guid: b6606c5bb8cb12444a1e551ba1085050, type: 3}
+    growthSprite:
+    - {fileID: 5940278866164146339, guid: d241c496741a12d4290e12ba81dd6724, type: 3}
+    - {fileID: -1611693019923910846, guid: d241c496741a12d4290e12ba81dd6724, type: 3}
+    - {fileID: 1388107105281676754, guid: d241c496741a12d4290e12ba81dd6724, type: 3}
+    - {fileID: 6019493940114240039, guid: d241c496741a12d4290e12ba81dd6724, type: 3}
+    - {fileID: 21300000, guid: 89c46045b5f23d840b62099f6f1f6344, type: 3}
+    seasons: 0000000001000000
+    harvestedSprite: {fileID: 0}
+    harvestedTransformItemCode: 10009
+    hideCropBeforeHarvestedAnimation: 0
+    disableCropCollidersBeforeHarvestAnimation: 0
+    isHarvestedAnimation: 1
+    isHarvestActionEffect: 1
+    spawnCropProducedAtPlayerPosition: 0
+    harvestActionEffect: 0
+    harvestToolItemCode: 15270000
+    requiredHarvestAction: 07000000
+    cropProducedItemCode: 1827000010270000
+    cropProducedMinQuantity: 0200000001000000
+    cropProducedMaxQuantity: 0500000002000000
+    daysToRegrow: 0
